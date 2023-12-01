@@ -86,7 +86,7 @@ export class Newscomponent extends Component {
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
-          loader={<Spinner />}
+          loader={this.state.articles === this.state.totalResults ? "  " : <Spinner />}
         >
           <div className="container">
             <div className="row">
