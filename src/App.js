@@ -1,6 +1,5 @@
 import "./App.css";
 import "./css/gototop.css";
-
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Newscomponent from "./components/Newscomponent";

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ArrowUp from "remixicon-react/ArrowUpLineIcon";
+import ArrowUp from "remixicon-react/ArrowUpLineIcon"; // to use remixicon-react we import the icon and for importing we write the icon name in pascal case and add Icon in the end of the name
 import "../css/gototop.css";
 
 class GoToTopButton extends Component {
